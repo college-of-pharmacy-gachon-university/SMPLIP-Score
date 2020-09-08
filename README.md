@@ -38,6 +38,7 @@ a. This worflow, took input of all *.ifp files from directory, extract all relev
 5. Train, validate and test your RF and DNN model using python script.
 
 a. To train, validate and test the RF model use the Train-Valid-Test-RF.ipynb [SMPLIP-Score]
+
 b. To train, validate and test the DNN model use the Train_Valid_Test-DNN.py
 
 Additional Information:
