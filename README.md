@@ -18,22 +18,27 @@ The followng necessary packages should be installed in your system to process, g
 Procedures:
 
 1. Process the protein PDB files using KNIME workflow (PDBbind_v2015_Preprocessing).
-	a. This will generate correct PDB files in *.mol2 file format.
+
+a. This will generate correct PDB files in *.mol2 file format.
 
 2. Generate the protein-ligand binding fingerprints using IChem program.
-	program usage:
-	IChem 1a30_protein.mol2 1a30_ligand.mol2 > 1a30.ifp
+
+program usage:
+IChem 1a30_protein.mol2 1a30_ligand.mol2 > 1a30.ifp
  
 3. Generate substructutal molecular ligand fragments using SMF program.
-	a. SMF program provides GUI.
-	b. Provide all the ligands in *.sdf file format
+
+a. SMF program provides GUI.
+b. Provide all the ligands in *.sdf file format
 	
 4. Generate a matrix of fingerprint from the output file IChem program using KNIME workflow (IChem_IFP_PDBBind_2015)
-	a. This worflow, took input of all *.ifp files from directory, extract all relevant information and save into *.csv format.
+
+a. This worflow, took input of all *.ifp files from directory, extract all relevant information and save into *.csv format.
 	
 5. Train, validate and test your RF and DNN model using python script.
-	a. To train, validate and test the RF model use the Train-Valid-Test-RF.ipynb [SMPLIP-Score]
-	b. To train, validate and test the DNN model use the Train_Valid_Test-DNN.py
+
+a. To train, validate and test the RF model use the Train-Valid-Test-RF.ipynb [SMPLIP-Score]
+b. To train, validate and test the DNN model use the Train_Valid_Test-DNN.py
 
 Additional Information:
 
