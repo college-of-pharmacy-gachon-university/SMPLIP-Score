@@ -10,7 +10,7 @@ The followng necessary packages should be installed in your system to process, g
 3. IChem program (http://bioinfo-pharma.u-strasbg.fr/labwebsite/download.html) [License can be obtained upon request to Dr. Didier Rognan]
 4. SMF program (http://vpsolovev.ru/programs/smf/)
 5. python >3.0
-5. Kears (2.3.1)
+5. Keras (2.3.1)
 6. Tensorflow (2.1.0)
 7. Scikit Learn (0.22)
 7. Jupyter Notebook
