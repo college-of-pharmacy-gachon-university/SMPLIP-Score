@@ -2,9 +2,12 @@
 # SMPLIP-Score
 SMPLIP-Score was develped for prediction of absolute ligand-protein binding affinities.
 
-Requirments:
+![image](https://user-images.githubusercontent.com/51576785/120276925-504a8c80-c2ee-11eb-89fd-6b49995b7261.png)
 
-The followng necessary packages should be installed in your system to process, generate fingerprint and train and test your model.
+
+## Requirements:
+
+The following necessary packages should be installed in to process, generate fingerprint, train and test your model.
 
 1. KNIME analytics platform (> 3.5)
 2. Community nodes and schrodinger nodes should be installed (For schrodinger node please follow this link: https://www.schrodinger.com/kb/1085)
@@ -21,17 +24,23 @@ The followng necessary packages should be installed in your system to process, g
 1. Process the protein PDB files using KNIME workflow (PDBbind_v2015_Preprocessing).
 
    => This will generate correct protein PDB files in *.mol2 file format.
+   
+   The interface of KNIME workflow to process the protein (PDB) file.
+   
+   ![image](https://user-images.githubusercontent.com/51576785/120276689-fba71180-c2ed-11eb-8142-6bd865955a29.png)
+
 
 2. Generate the protein-ligand binding fingerprints using IChem program.
 
-	### Program usage:
-	IChem 1a30_protein.mol2 1a30_ligand.mol2 > 1a30.ifp
+		run the following command to generate *.ifp file
+		IChem 1a30_protein.mol2 1a30_ligand.mol2 > 1a30.ifp
  
 3. Generate substructutal molecular ligand fragments using SMF program.
 
-    => SMF program provides GUI.
-    
-    => Provide all the ligands in *.sdf file format
+	    - SMF program provides GUI.
+	![image](https://user-images.githubusercontent.com/51576785/120276473-b08cfe80-c2ed-11eb-8f3d-7b6c803b2173.png)
+
+	    - The user must provide all the ligands in *.sdf file format.
 	
 4. Generate a matrix of fingerprint from the output file IChem program using KNIME workflow (IChem_IFP_PDBBind_2015)
 
@@ -41,11 +50,19 @@ The followng necessary packages should be installed in your system to process, g
 
    => To train, validate and test the RF model use the Train-Valid-Test-RF.ipynb [SMPLIP-Score]
    
+     => Load the *.ipynb* file using the jupyter notebook.
+   
    => To train, validate and test the DNN model use the Train_Valid_Test-DNN.py
    
    	### usage argument:
-	see the comment section of Train_Valid_Test-DNN.py for the usage argument
+	see the comment section of Train_Valid_Test-DNN.py for the usage argument on how to run the *.py* file.
 
 # Additional Information:
 
 For any queries mail to Mi-hyun Kim (kmh0515@gachon.ac.kr) or Surendra Kumar (surendramph@gmail.com)
+
+# References
+
+https://jcheminf.biomedcentral.com/articles/10.1186/s13321-021-00507-1
+
+# SMPLIP-Score: predicting ligand binding affinity from simple and interpretable on-the-fly interaction fingerprint pattern descriptors
