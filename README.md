@@ -5,7 +5,7 @@ SMPLIP-Score was develped for prediction of absolute ligand-protein binding affi
 ![image](https://user-images.githubusercontent.com/51576785/120276925-504a8c80-c2ee-11eb-89fd-6b49995b7261.png)
 
 
-## Requirements:
+# Requirements:
 
 The following necessary packages should be installed in to process, generate fingerprint, train and test your model.
 
@@ -38,7 +38,7 @@ The following necessary packages should be installed in to process, generate fin
 3. Generate substructutal molecular ligand fragments using SMF program.
 
 	    - SMF program provides GUI.
-	![image](https://user-images.githubusercontent.com/51576785/120276473-b08cfe80-c2ed-11eb-8f3d-7b6c803b2173.png)
+	![image](https://user-images.githubusercontent.com/51576785/120277987-b4218500-c2ef-11eb-8dee-3477b463e821.png)
 
 	    - The user must provide all the ligands in *.sdf file format.
 	
@@ -50,18 +50,21 @@ The following necessary packages should be installed in to process, generate fin
 
    => To train, validate and test the RF model use the Train-Valid-Test-RF.ipynb [SMPLIP-Score]
    
-     => Load the *.ipynb* file using the jupyter notebook.
+     	Load the *.ipynb* file using the jupyter notebook.
    
-   => To train, validate and test the DNN model use the Train_Valid_Test-DNN.py
+   => To train, validate and test the DNN model use the Train_Valid_Test-DNN.py [SMPLIP-DNN]
    
-   	### usage argument:
-	see the comment section of Train_Valid_Test-DNN.py for the usage argument on how to run the *.py* file.
+   		usage argument (bash shell):
+		
+		python Train_Valid_Test-DNN.py > log.txt
+		
+		see the comment section of Train_Valid_Test-DNN.py for detailed information on file uses.
 
 # Additional Information:
 
 For any queries mail to Mi-hyun Kim (kmh0515@gachon.ac.kr) or Surendra Kumar (surendramph@gmail.com)
 
-# References
+# References:
 
 https://jcheminf.biomedcentral.com/articles/10.1186/s13321-021-00507-1
 
