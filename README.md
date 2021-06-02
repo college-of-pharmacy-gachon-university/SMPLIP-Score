@@ -9,15 +9,15 @@ SMPLIP-Score was develped for prediction of absolute ligand-protein binding affi
 
 The following necessary packages should be installed in to process, generate fingerprint, train and test your model.
 
-1. KNIME analytics platform (> 3.5)
-2. Community nodes and schrodinger nodes should be installed (For schrodinger node please follow this link: https://www.schrodinger.com/kb/1085)
-3. IChem program (http://bioinfo-pharma.u-strasbg.fr/labwebsite/download.html) [License can be obtained upon request to Dr. Didier Rognan]
-4. SMF program (http://vpsolovev.ru/programs/smf/)
-5. python >3.0
-5. Keras (2.3.1)
-6. Tensorflow (2.1.0)
-7. Scikit Learn (0.22)
-7. Jupyter Notebook
++ KNIME analytics platform (> 3.5)
++ Community nodes and schrodinger nodes should be installed (For schrodinger node please follow this link: https://www.schrodinger.com/kb/1085)
++ IChem program (http://bioinfo-pharma.u-strasbg.fr/labwebsite/download.html) [License can be obtained upon request to Dr. Didier Rognan]
++ SMF program (http://vpsolovev.ru/programs/smf/)
++ python >3.0
++ Keras (2.3.1)
++ Tensorflow (2.1.0)
++ Scikit Learn (0.22)
++ Jupyter Notebook
 
 # Procedures:
 
