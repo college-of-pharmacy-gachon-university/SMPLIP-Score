@@ -29,7 +29,8 @@ The following necessary packages should be installed in to process, generate fin
    
    ![image](https://user-images.githubusercontent.com/51576785/120407346-f0a0bf80-c387-11eb-9d87-a7d08f3abe67.png)
    
-   => To know, how to import the PDBbind_v2015_Preprocessin.knwf workflow into KNIME Analytics Platform visit this tutorial
+   => To know, how to import the PDBbind_v2015_Preprocessin.knwf workflow into KNIME Analytics Platform visit this tutorial (official channel of KNIMETV).
+   
    https://www.youtube.com/watch?v=4GiwmM-qcC4
 
 2. Generate the protein-ligand binding fingerprints using IChem program.
