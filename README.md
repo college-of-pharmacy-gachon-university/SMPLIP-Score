@@ -2,6 +2,8 @@
 # SMPLIP-Score
 SMPLIP-Score was develped for prediction of absolute ligand-protein binding affinities.
 
+[![HTML Manuscript](https://img.shields.io/badge/manuscript-HTML-blue.svg)](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-021-00507-1)
+
 ![image](https://user-images.githubusercontent.com/51576785/120276925-504a8c80-c2ee-11eb-89fd-6b49995b7261.png)
 
 
@@ -27,7 +29,7 @@ The following necessary packages should be installed in to process, generate fin
    
    The interface of KNIME workflow to process the protein (PDB) file.
    
-   ![image](https://user-images.githubusercontent.com/51576785/120276689-fba71180-c2ed-11eb-8142-6bd865955a29.png)
+   ![image](https://user-images.githubusercontent.com/51576785/120407346-f0a0bf80-c387-11eb-9d87-a7d08f3abe67.png)
 
 
 2. Generate the protein-ligand binding fingerprints using IChem program.
