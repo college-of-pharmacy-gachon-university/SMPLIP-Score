@@ -2,8 +2,6 @@
 # SMPLIP-Score
 SMPLIP-Score was develped for prediction of absolute ligand-protein binding affinities.
 
-[![HTML Manuscript](https://img.shields.io/badge/manuscript-HTML-blue.svg)](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-021-00507-1)
-
 ![image](https://user-images.githubusercontent.com/51576785/120276925-504a8c80-c2ee-11eb-89fd-6b49995b7261.png)
 
 
@@ -30,12 +28,17 @@ The following necessary packages should be installed in to process, generate fin
    The interface of KNIME workflow to process the protein (PDB) file.
    
    ![image](https://user-images.githubusercontent.com/51576785/120407346-f0a0bf80-c387-11eb-9d87-a7d08f3abe67.png)
-
+   
+   => To know, how to import the PDBbind_v2015_Preprocessin.knwf workflow into KNIME Analytics Platform visit this tutorial
+   https://www.youtube.com/watch?v=4GiwmM-qcC4
 
 2. Generate the protein-ligand binding fingerprints using IChem program.
 
-		run the following command to generate *.ifp file
-		IChem 1a30_protein.mol2 1a30_ligand.mol2 > 1a30.ifp
+   	```sh
+	# run the following command to generate *.ifp file
+	
+	IChem 1a30_protein.mol2 1a30_ligand.mol2 > 1a30.ifp
+	
  
 3. Generate substructutal molecular ligand fragments using SMF program.
 
@@ -52,15 +55,17 @@ The following necessary packages should be installed in to process, generate fin
 
    => To train, validate and test the RF model use the Train-Valid-Test-RF.ipynb [SMPLIP-Score]
    
-     	Load the *.ipynb* file using the jupyter notebook.
+		Load the *.ipynb* file using the jupyter notebook.
    
    => To train, validate and test the DNN model use the Train_Valid_Test-DNN.py [SMPLIP-DNN]
    
-   		usage argument (bash shell):
-		
-		python Train_Valid_Test-DNN.py > log.txt
-		
-		see the comment section of Train_Valid_Test-DNN.py for detailed information on file uses.
+   	```sh
+	# usage argument (bash shell):
+	
+	python Train_Valid_Test-DNN.py > log.txt
+	
+	# see the comment section of Train_Valid_Test-DNN.py for detailed information on file uses.
+	
 
 # Additional Information:
 
