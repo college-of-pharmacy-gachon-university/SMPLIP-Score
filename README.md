@@ -68,6 +68,5 @@ For any queries mail to Mi-hyun Kim (kmh0515@gachon.ac.kr) or Surendra Kumar (su
 
 # References:
 
-https://jcheminf.biomedcentral.com/articles/10.1186/s13321-021-00507-1
-
-# SMPLIP-Score: predicting ligand binding affinity from simple and interpretable on-the-fly interaction fingerprint pattern descriptors
+## SMPLIP-Score: predicting ligand binding affinity from simple and interpretable on-the-fly interaction fingerprint pattern descriptors
+[![HTML Manuscript](https://img.shields.io/badge/manuscript-HTML-blue.svg)](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-021-00507-1)
