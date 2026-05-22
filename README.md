@@ -4,6 +4,9 @@ SMPLIP-Score was develped for prediction of absolute ligand-protein binding affi
 
 ![image](https://user-images.githubusercontent.com/51576785/120276925-504a8c80-c2ee-11eb-89fd-6b49995b7261.png)
 
+Cite this article
+Kumar, S., Kim, Mh. SMPLIP-Score: predicting ligand binding affinity from simple and interpretable on-the-fly interaction fingerprint pattern descriptors. J Cheminform 13, 28 (2021). 
+https://doi.org/10.1186/s13321-021-00507-1
 
 # Requirements:
 
